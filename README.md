@@ -1,12 +1,16 @@
-# Bidiyah Cars App
+## Bidiyah Cars App
 
-A Flutter-based application for managing car rentals in Bidiyah.
+A Flutter-based application for managing car sales in Bidiyah features seamless user and admin functionality.
 
-## Features
+Features
+User Authentication: Login and registration for personalized access.
+Car Listings: Browse available cars with images and details.
+Car Details: View comprehensive information about each car.
+Admin Panel: Add, edit, or update car listings.
+Order History: Track previous orders and manage purchases.
+Firebase Integration: Secure and efficient backend services.
 
-- Browse available cars
-- View car details
-- Admin functionality to add/edit cars
+Getting Started
 
 ## Getting Started
 
