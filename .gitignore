@@ -29,7 +29,8 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-/build/
+build/
+pubspec.lock
 
 # Symbolication related
 app.*.symbols
@@ -38,6 +39,18 @@ app.*.symbols
 app.*.map.json
 
 # Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Firebase configuration files (sensitive information)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# macOS/Linux/Windows Flutter ephemeral files
+macos/Pods/
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# Web Flutter ephemeral files
+web/flutter/
